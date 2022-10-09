@@ -1,7 +1,12 @@
 
 
-a = 1
 
-while a > 0:
-    print("hello")
+67a = 1
+
+Gh = "hi"
+
+while a > 0
+    printt("hello")
     a += 1
+
+foo(h)
