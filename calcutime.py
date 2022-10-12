@@ -142,7 +142,7 @@ print(LINE)
 print("CURRENT TIME:")
 
 TIME = subprocess.run(
-    ["date", '+"%H:%M"'], capture_output=True, text=True, check=True
+    ["/bin/date", '+"%H:%M"'], capture_output=True, text=True, check=True
 ).stdout
 SPLIT = TIME.split(":")
 
